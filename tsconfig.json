@@ -1,0 +1,12 @@
+{
+    "include": ["ts-1/src"],
+    "exclude": ["node_modules","libs"],
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES5",
+        "noImplicitAny": true,
+        "outDir": "ts-1/dist",
+        "declaration": true,
+        "sourceMap": false
+    }
+}
